@@ -144,6 +144,10 @@
           left: 120px;
           font-size: 0.5em;
         }
+        .halloween-container .moon {
+          width: 40px;
+          height: 40px;
+        }
       }
     `;
     head.appendChild(style);
@@ -188,4 +192,5 @@
 
   window.addEventListener("DOMContentLoaded", () => addHalloweenEffect(selector));
 })();
+
 
