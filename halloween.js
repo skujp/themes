@@ -33,10 +33,10 @@
         position: absolute;
         inset: 0;
         background:
-          radial-gradient(circle at bottom, rgba(11, 0, 26, 0.95) 0%, rgba(0, 0, 0, 1) 100%);
+          radial-gradient(circle at bottom, rgba(11, 0, 26, 0.80) 0%, rgba(0, 0, 0, 80) 100%);
         z-index: -1;
         pointer-events: none;
-        transition: opacity 1s ease-in-out;
+        transition: opacity 2s ease-in-out;
         opacity: 0.95;
       }
 
@@ -188,3 +188,4 @@
 
   window.addEventListener("DOMContentLoaded", () => addHalloweenEffect(selector));
 })();
+
